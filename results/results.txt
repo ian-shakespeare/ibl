@@ -1,0 +1,31 @@
+
+========================================================================
+Table 6 Replication — Aha, Kibler & Albert (1991)
+Percent accuracy ± standard error  |  Percent storage
+------------------------------------------------------------------------
+Dataset             IB1 Acc  IB1 Stor      IB2 Acc  IB2 Stor      IB3 Acc  IB3 Stor
+------------------------------------------------------------------------
+Voting           91.9 ± 0.4    100.0%   90.4 ± 0.4     11.5%   90.8 ± 0.4     19.0%
+Waveform         74.5 ± 0.2    100.0%   68.7 ± 0.4     33.1%   74.2 ± 0.3     38.0%
+========================================================================
+
+Paper's original Table 6 values (for reference):
+------------------------------------------------------------------------
+Dataset             IB1 Acc  IB1 Stor      IB2 Acc  IB2 Stor      IB3 Acc  IB3 Stor
+------------------------------------------------------------------------
+Voting            91.8 ±0.4    100.0%    90.9 ±0.5     11.1%    91.6 ±0.5      7.4%
+Waveform          75.2 ±0.3    100.0%    69.6 ±0.4     32.5%    73.8 ±0.4     14.6%
+========================================================================
+
+Analysis
+--------
+
+[Voting]
+  Claim (a) IB2 reduces storage at small accuracy cost: storage reduced by 88.5pp, accuracy drop 1.5pp — SUPPORTED
+  Claim (b) IB3 handles noise better than IB2: IB3 acc=90.8% vs IB2 acc=90.4% — SUPPORTED
+  Claim (c) IB3 still reduces storage vs IB1: storage reduced by 81.0pp — SUPPORTED
+
+[Waveform]
+  Claim (a) IB2 reduces storage at small accuracy cost: storage reduced by 66.9pp, accuracy drop 5.7pp — MIXED/NOT SUPPORTED
+  Claim (b) IB3 handles noise better than IB2: IB3 acc=74.2% vs IB2 acc=68.7% — SUPPORTED
+  Claim (c) IB3 still reduces storage vs IB1: storage reduced by 62.0pp — SUPPORTED
