@@ -1,5 +1,7 @@
 # Instance-Based Learning Algorithms (IB1, IB2, IB3)
 
+[Slide deck presentation available here.](https://github.com/ian-shakespeare/ibl/blob/main/presentation.pdf)
+
 Implementation of Aha, Kibler & Albert (1991),  
 *"Instance-Based Learning Algorithms"*, Machine Learning, 6, 37–66.
 
